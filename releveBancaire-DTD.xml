@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE releve SYSTEM "releveBancaire.dtd">
+<releve RIB="09897754354343534532">
+    <dateReleve>2022-12-05</dateReleve>
+    <solde>25000</solde>
+    <operations dateDebut="2022-04-13" dateFin="2022-04-30">
+        <operation type="CREDIT" date="2022-04-13" montant="4000" description="Vers espece"/>
+        <operation type="CREDIT" date="2021-02-05" montant="1500" description="Virement Salaire"/>
+        <operation type="DEBIT" date="2021-02-10" montant="200" description="Achat Supermarché"/>
+        <operation type="DEBIT" date="2021-02-15" montant="300" description="Paiement Facture Électricité"/>
+        <operation type="CREDIT" date="2021-02-20" montant="600" description="Remboursement Ami"/>  
+    </operations>
+</releve>

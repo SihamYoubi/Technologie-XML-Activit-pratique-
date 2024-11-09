@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<releve xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="releveBancaire.xsd" 
+    rib="97998000845346">
+    <dateReleve>2021-11-10</dateReleve>
+    <solde>14500</solde>
+    <operations>
+        <operation type="credit" date="2021-01-01" montant="9000" description="Versement Espèce"/>
+        <operation type="debit" date="2021-01-05" montant="120" description="Prélèvement Assurence"/>
+        <operation type="debit" date="2021-01-10" montant="3400" description="Chèque Guichet"/>
+        <operation type="credit" date="2021-01-25" montant="1500" description="Virement Salaire"/>
+        <operation type="debit" date="2021-01-28" montant="200" description="Achat Supermarché"/>
+        <operation type="debit" date="2021-01-30" montant="300" description="Paiement Facture Électricité"/>
+    </operations>
+    
+</releve>
